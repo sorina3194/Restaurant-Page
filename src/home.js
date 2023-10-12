@@ -1,9 +1,9 @@
-import './style.css';
-import './home.css';
-import Icon from './icon.png';
+import './attributes/style.css'
+import './attributes/home.css';
 
 export function initializePage() {
   const content = document.querySelector('#content')
+  content.innerHTML = ""
 
   const name = document.createElement('h1');
   name.innerHTML = "SOUL"
@@ -18,7 +18,7 @@ export function initializePage() {
   const description = document.createElement('div');
 
   const description1 = document.createElement('p');
-  description1.innerHTML = "For the past twenty years, soul has been a restaurant ever curious to learn and grow—to be the best that we can be!"
+  description1.innerHTML = "For the past twenty years, SOUL has been a restaurant ever curious to learn and grow—to be the best that we can be!"
 
   const description2 = document.createElement('p');
   description2.innerHTML = "Our origin is rooted in an exploration of the natural world, which began with a simple desire to rediscover wild local ingredients by foraging and to follow the seasons."
@@ -82,9 +82,4 @@ export function initializePage() {
   location.setAttribute('id','location');
 
   content.appendChild(location)
-
-
-  const img = document.createElement('img')
-  img.src = Icon
-  content.appendChild(img)
 }

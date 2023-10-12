@@ -1,0 +1,9 @@
+#menuKoi,#menuKolibri, #menuVegan {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#titleKolibri, #titleKoi, #titleVegan {
+  font-size: 35px;
+}

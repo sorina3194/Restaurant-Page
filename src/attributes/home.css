@@ -1,9 +1,12 @@
-
 #header {
   padding: 10px;
   margin: 20px;
   font-weight: 800;
   color: black;
+}
+
+#name {
+  padding: 20px;
 }
 
 #description {
@@ -14,28 +17,22 @@
   color: black;
 }
 
+#description > p {
+  padding: 30px;
+}
+
 #hours{
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   margin: 40px;
 }
 
-img {
-  opacity: 0.3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#location {
+#hours > p {
+  padding: 10px;
   font-size: 20px;
 }
 
-#content {
-  text-align: center;
-  padding-right: 30px;
-  width: 70%;
-  border: solid 5px black;
+#location {
+  padding: 20px;
+  font-size: 20px;
 }
