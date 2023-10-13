@@ -54,19 +54,19 @@ export function initializePage() {
   const Friday = document.createElement('p');
   const Saturday = document.createElement('p');
 
-  Sunday.innerHTML = "Sunday: 8am - 8pm"
+  Sunday.innerHTML = "Sunday: 8pm - 12am"
 
-  Monday.innerHTML = "Monday: 6am - 6pm"
+  Monday.innerHTML = "Monday: 8pm - 12am"
 
-  Tuesday.innerHTML= "Tuesday: 6am - 6pm"
+  Tuesday.innerHTML= "Tuesday: 8pm - 12am"
 
-  Wednesday.innerHTML = "Wednesday: 6am - 6pm"
+  Wednesday.innerHTML = "Wednesday: 8pm - 12am"
 
-  Thursday.innerHTML = "Thursday: 6am - 10pm"
+  Thursday.innerHTML = "Thursday: 8pm - 12am"
 
-  Friday.innerHTML = "Friday: 6am - 10pm"
+  Friday.innerHTML = "Friday: 8pm - 12am"
 
-  Saturday.innerHTML = "Saturday: 8am - 10pm"
+  Saturday.innerHTML = "Saturday: 8pm - 12am"
 
   hours.appendChild(Sunday);
   hours.appendChild(Monday);
