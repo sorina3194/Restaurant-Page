@@ -14,7 +14,7 @@ module.exports = {
       overlay: false,
     },
     compress: true,
-    port: 9000,
+    port: process.env.PORT || 8010
   },
   module: {
     rules: [
