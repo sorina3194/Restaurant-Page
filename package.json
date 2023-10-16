@@ -18,7 +18,7 @@
     "url": "https://github.com/sorina3194/Restaurant-Page/issues"
   },
   "homepage": "https://github.com/sorina3194/Restaurant-Page#readme",
-  "devDependencies": {
+  "dependencies": {
     "css-loader": "^6.8.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
