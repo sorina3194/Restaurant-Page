@@ -1,0 +1,26 @@
+#formContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+label {
+  font-family: Poppins;
+  font-size: 25px;
+}
+
+#firstName, #lastName, #phoneNumber, #reservationDate {
+  margin: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+
+#reserveBtn, #submit, #reservationTime  {
+  padding: 10px;
+  margin: 20px;
+  font-weight: 800;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
